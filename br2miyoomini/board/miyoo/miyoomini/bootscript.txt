@@ -1,5 +1,5 @@
 build:202112110956
 
 # File Partition: customer.mxp r.info customer
-setenv loadaddr 0x24000000; fatload mmc 0:1 ${loadaddr} kernel_miyoomini; go ${loadaddr}
+setenv loadaddr 0x22000000; fatload mmc 0:1 ${loadaddr} uImage.xz; bootm ${loadaddr}
 %

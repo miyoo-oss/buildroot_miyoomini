@@ -9,4 +9,4 @@ sysfs		/sys		sysfs	defaults					0	0
 tmpfs		/home/miyoomini tmpfs   mode=0755,nosuid,nodev,uid=1337,gid=1337	0	0
 tmpfs		/root		tmpfs   mode=0755,nosuid,nodev				0	0
 
-/dev/mmcblk0p3	/data		exfat	defaults					0	0		
+/dev/mmcblk0p1	/bootload		vfat	defaults					0	0		
