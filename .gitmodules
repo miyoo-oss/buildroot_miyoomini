@@ -3,10 +3,10 @@
 	url = https://github.com/fifteenhex/br2secretsauce.git
 [submodule "buildroot"]
 	path = buildroot
-	url = github.com:miyoo-oss/buildroot.git
+	url = https://github.com/miyoo-oss/buildroot.git
 [submodule "br2directfb2"]
 	path = br2directfb2
-	url = https://github.com/fifteenhex/br2directfb2.git
+	url = https://github.com/miyoo-oss/br2directfb2.git
 [submodule "br2games"]
 	path = br2games
 	url = https://github.com/fifteenhex/br2games.git
@@ -16,5 +16,3 @@
 [submodule "br2chenxing"]
 	path = br2chenxing
 	url = https://github.com/linux-chenxing/br2chenxing.git
-[submodule "br2directfb2/"]
-	url = github.com:miyoo-oss/br2directfb2.git
