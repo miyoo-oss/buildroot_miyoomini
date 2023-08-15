@@ -1,6 +1,6 @@
 PREFIX = miyoomini
 DEFCONFIG=../br2miyoomini/configs/miyoomini_defconfig
-EXTERNALS=../br2miyoomini ../br2sanetime ../br2games ../br2directfb2 ../br2chenxing
+EXTERNALS=../br2miyoomini ../br2sanetime ../br2games ../br2directfb2 ../br2chenxing ../br2retroarch
 TOOLCHAIN = arm-buildroot-linux-gnueabihf_sdk-buildroot.tar.gz
 
 .PHONY: all
