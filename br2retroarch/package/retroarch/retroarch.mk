@@ -5,9 +5,9 @@
 ################################################################################
 
 # Version 1.10.0
-RETROARCH_VERSION = master
-RETROARCH_SITE = /home/bird/personal/RetroArch
-RETROARCH_SITE_METHOD = local
+RETROARCH_VERSION = v1.16.0
+RETROARCH_SITE = https://github.com/libretro/RetroArch.git
+RETROARCH_SITE_METHOD = git
 RETROARCH_LICENSE = GPLv3+
 RETROARCH_CONF_OPTS += --disable-oss --enable-zlib --disable-opengl1 --disable-rpng --disable-rbmp --disable-accessibility --disable-translate
 RETROARCH_DEPENDENCIES = host-pkgconf
