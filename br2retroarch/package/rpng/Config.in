@@ -1,0 +1,4 @@
+config BR2_PACKAGE_RPNG
+	bool "RPNG"
+	help
+	  PNG library
